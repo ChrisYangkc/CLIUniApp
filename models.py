@@ -11,7 +11,7 @@ class Student:
         self.email = email
         self.password = password
         self.subjects = []# empty list
-
+        
     def generate_id(self, max_value, width):
         # Generate a random unique ID for a student with a specified width.
         id_val = str(random.randint(1, max_value))
